@@ -1,11 +1,11 @@
-import { List } from "./App";
+import { SkillListItem } from "./SkillListItem";
 
 export default function SkillList() {
   return (
     <>
       <div>
         <ul>
-          < List/>
+          < SkillListItem/>
         </ul>
       </div>
     </>
