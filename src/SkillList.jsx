@@ -1,14 +1,13 @@
-import Form from "./form";
+import { List } from "./App";
 
-export default function SkillListItem() {
-    return (
+export default function SkillList() {
+  return (
+    <>
       <div>
         <ul>
-          <li className="SkillListItem">Learn React</li>
-          <li className="SkillListItem">Learn the MERN-Stack</li>
+          < List/>
         </ul>
-        <Form />
-       
       </div>
-    );
-  }
+    </>
+  );
+}
